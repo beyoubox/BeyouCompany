@@ -8,6 +8,7 @@ import '../../assets/css/reset.css'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 Vue.use(VueAwesomeSwiper);
 import "jquery"
+import store from "../../store";
 
 Vue.config.productionTip = false
 
@@ -26,6 +27,7 @@ router.afterEach((to,from,next) => {
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store: store,
   router,
   components: { App },
   template: '<App/>'

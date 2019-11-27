@@ -7,22 +7,22 @@
         </div>
         <div class="nav_box">
           <ul class="header_nav">
-            <router-link tag="li" to="/" exact>首页</router-link>
-            <router-link tag="li" to="/chain">公链生态</router-link>
-            <router-link tag="li" to="/specification">链改直通车</router-link>
-            <router-link tag="li" to="/roots" ref="pro">产品说明书
+            <router-link tag="li" to="/" exact>{{lang.router.home[$store.getters.langKey]}}</router-link>
+            <router-link tag="li" to="/chain">{{lang.router.chainEcology[$store.getters.langKey]}}</router-link>
+            <router-link tag="li" to="/specification">{{lang.router.chainifyTrain[$store.getters.langKey]}}</router-link>
+            <router-link tag="li" to="/roots" ref="pro">{{lang.router.doc[$store.getters.langKey]}}
               <!-- <div class="instructions">
                 <router-link tag="p" to="/specification">无感支付</router-link>
                 <router-link tag="p" to="/roots">溯源应用</router-link>
               </div> -->
             </router-link>
-            <router-link tag="li" to="/about">关于我们</router-link>
-            <li class="popup" ref="popup">加入我们
+            <router-link tag="li" to="/about">{{lang.router.aboutUs[$store.getters.langKey]}}</router-link>
+            <li class="popup" ref="popup">{{lang.router.joinUs[$store.getters.langKey]}}
               <div class="popup_window">
-                <p class="one">敬请期待</p>
+                <p class="one">{{lang.router.stayTuned[$store.getters.langKey]}}</p>
               </div>
             </li>
-            <li class="pop" ref="pop">联系我们
+            <li class="pop" ref="pop">{{lang.router.contactUs[$store.getters.langKey]}}
               <div class="popup_window" style="width: 150px;left: -0.6rem">
                 <p>bd@merchain.cn</p>
               </div>
@@ -38,25 +38,29 @@
         </div>
       </div>
     </div>
-<!--    <div v-show="shows" class="popup_window">-->
-<!--      <div @click="shows=!shows" class="shadow"></div>-->
-<!--      <div class="popup_window_content">-->
-<!--        <p>请联系我们</p>-->
-<!--        <p>邮箱：lixin@merchain.cn</p>-->
-<!--      </div>-->
-<!--    </div>-->
+    <!--    <div v-show="shows" class="popup_window">-->
+    <!--      <div @click="shows=!shows" class="shadow"></div>-->
+    <!--      <div class="popup_window_content">-->
+    <!--        <p>请联系我们</p>-->
+    <!--        <p>邮箱：lixin@merchain.cn</p>-->
+    <!--      </div>-->
+    <!--    </div>-->
     <router-view/>
   </div>
 </template>
 
 <script>
+    import store from "../../store";
+    import {Lang} from "../../../static/i18n";
+
     export default {
         name: 'App',
         data() {
             return {
                 show: false,
                 // shows:false,
-                nav: ""
+                nav: "",
+                lang: Lang
             }
         },
         mounted() {
@@ -81,7 +85,7 @@
         methods: {
             language() {
                 this.show = !this.show;
-                if (this.show == true) {
+                if (this.show === true) {
                     this.$refs.language_box.classList.add("sanjiao");
                     this.$refs.choose.style.height = "0.56rem";
                 } else {
@@ -92,9 +96,11 @@
             },
             Ch() {
                 this.$refs.language.innerText = "简体中文";
+                store.commit('langKey', 'cn');
             },
             En() {
                 this.$refs.language.innerText = "English";
+                store.commit('langKey', 'en');
             }
         },
         created() {

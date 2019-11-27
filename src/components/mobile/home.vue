@@ -40,7 +40,6 @@
               <img src="../../assets/img/yiliao.png" alt="">
             </div>
             <p class="technology">生态公链</p>
-            <p class="use">以科创板为目标，潜心技术应用</p>
           </div>
           <div class="btn">项目详情</div>
         </li>
@@ -50,7 +49,6 @@
               <img src="../../assets/img/rengong.png" alt="">
             </div>
             <p class="technology">链改吧</p>
-            <p class="use">媒体宣发通道，公众号&论坛</p>
           </div>
           <div class="btn">项目详情</div>
         </li>
@@ -60,7 +58,6 @@
               <img src="../../assets/img/zhihuiyil.png" alt="">
             </div>
             <p class="technology">企业服务</p>
-            <p class="use">赋能实体经济</p>
           </div>
           <div class="btn">项目详情</div>
         </li>
@@ -75,28 +72,28 @@
           <p>生态公链</p>
           <a href="javascript:;">点击进入</a>
         </div>
-        <ul class="liangai_text animated fadeInRight" style="visibility: hidden;animation-name: none;">
+        <ul class="liangai_text animated" style="visibility: hidden;animation-name: none;">
+          <li>
+            <p>公链钱包</p>
+            <p>Merchain(莫嗔科技)以强大的技术团队不断进行底层公链的研发和功能的优化，将不断提高公链的各方面能力，不受其他任何链的限制，营造一个自由平等的链世界。</p>
+          </li>
           <li>
             <p>公链价值</p>
             <p>公链在整个区块链领域是非常重要的——底层公链相当于区块链世界的基础设施，解决方案用来拓展底层公链的性能或为商业应用提供服务支撑。只有在底层公链扎实稳健高效运转的基础上，区块链商业应用才能发展和落地。</p>
           </li>
           <li>
-            <p>自主公链</p>
-            <p>Merchain(莫嗔科技)以强大的技术团队不断进行底层公链的研发和功能的优化，将不断提高公链的各方面能力，不受其他任何链的限制，营造一个自由平等的链世界。</p>
-          </li>
-          <li>
-            <p>生态布局</p>
+            <p>公链布局</p>
             <p>Merchain(莫嗔科技)从应用生态、多链钱包、金融生态、稳定币四个部分出发，基于自己的底层公链不断研发完善高层服务，提高公链价值，同时开放各领域的接入接口，从各方面MC生态。</p>
           </li>
         </ul>
-        <div class="liangai_img animated fadeInDown" style="visibility: hidden;animation-name: none;">
+        <div class="liangai_img animated" style="visibility: hidden;animation-name: none;">
           <img src="../../assets/img/liangai.png" alt="">
         </div>
       </div>
       <div class="qukuai">
         <p class="qukuai_text">
           Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
-        <div class="qukuai_process_box animated fadeInLeft" style="visibility: hidden;animation-name: none;">
+        <div class="qukuai_process_box animated" style="visibility: hidden;animation-name: none;">
           <div class="qukuai_process">
             <div class="qukuai_process_subclass">
               <div class="qukuai_process_img">
@@ -126,7 +123,7 @@
             <p>项目宣发<br>项目融资</p>
           </div>
         </div>
-        <div class="qukuai_img animated fadeInDown" style="visibility: hidden;animation-name: none;">
+        <div class="qukuai_img animated" style="visibility: hidden;animation-name: none;">
           <img src="../../assets/img/qukuai.png" alt="">
         </div>
       </div>
@@ -135,32 +132,32 @@
           <p>链改吧形成品牌效应</p>
           <a href="javascript:;">点击进入</a>
         </div>
-        <ul class="liangai_text animated fadeInRight" style="visibility: hidden;animation-name: none;">
+        <ul class="liangai_text animated" style="visibility: hidden;animation-name: none;">
+          <li>
+            <p>媒体宣发</p>
+            <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
+          </li>
+          <li>
+            <p>技术开发</p>
+            <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
+          </li>
+          <li>
+            <p>社群对接</p>
+            <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
+          </li>
           <li>
             <p>项目出海</p>
             <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
           </li>
-          <li>
-            <p>STO对接</p>
-            <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
-          </li>
-          <li>
-            <p>区块链高校社区群</p>
-            <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
-          </li>
-          <li>
-            <p>链改吧公众号+论坛</p>
-            <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
-          </li>
         </ul>
-        <div class="liangai_img animated fadeInDown" style="visibility: hidden;animation-name: none;">
+        <div class="liangai_img animated" style="visibility: hidden;animation-name: none;">
           <img src="../../assets/img/liangai.png" alt="">
         </div>
       </div>
     </section>
     <section class="dapps">
       <div class="title">
-        <p class="tit animated flipInX" style="visibility: hidden;animation-name: none;">Merchain Dapps</p>
+        <p class="tit animated" style="visibility: hidden;animation-name: none;">Merchain Dapps</p>
       </div>
       <div class="dapps_box">
         <ul class="dapps_content animated slideInRight" style="visibility: hidden;animation-name: none;">
@@ -215,7 +212,7 @@
       <div class="title">
         <p class="tit animated flipInX" style="visibility: hidden;animation-name: none;">Merchain Course</p>
       </div>
-      <div class="course_content animated zoomIn" style="visibility: hidden;animation-name: none;">
+      <div class="course_content animated" style="visibility: hidden;animation-name: none;">
         <div class="course_box">
           <div class="course_wrap_top">
             <div></div>

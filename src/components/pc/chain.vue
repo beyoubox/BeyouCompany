@@ -7,19 +7,17 @@
     </section>
     <section class="specification">
       <div class="title">
-        <p class="tit">公链价值</p>
+        <p class="tit">{{lang.chain.chainValue[$store.getters.langKey]}}</p>
       </div>
-      <p class="tit_son">Public Chain Value</p>
-      <p class="tit_text">
-        公链在整个区块链领域是非常重要的——底层公链相当于区块链世界的基础设施，解决方案用来拓展底层公链的性能或为商业应用提供服务支撑。只有在底层公链扎实稳健高效运转的基础上，区块链商业应用才能发展和落地；所以，公链的发展决定着未来整个区块链行业的发展速度与质量；由于一些基于底层公链的应用严重受限于性能，所以在未来很长一段时间内，公链仍将会成为区块链行业中最受关注的一个版块
-      </p>
+      <p class="tit_son">{{lang.chain.chainValueSub[$store.getters.langKey]}}</p>
+      <p class="tit_text">{{lang.chain.chainValueDetail[$store.getters.langKey]}}</p>
     </section>
     <section class="content">
       <div class="build">
         <div class="build_text">
-          <p>应用生态：</p>
-          <p>1、 娱乐：游戏、动漫、音乐、文学</p>
-          <p>2、 实体：教育、跨境电商、旅游、酒店、地产</p>
+          <p>{{lang.chain.feature1[$store.getters.langKey]}}</p>
+          <p>{{lang.chain.feature1Detail1[$store.getters.langKey]}}</p>
+          <p>{{lang.chain.feature1Detail2[$store.getters.langKey]}}</p>
         </div>
         <div class="build_img">
           <img src="../../assets/img/square1.png" alt="">
@@ -28,64 +26,72 @@
       <div class="cooperation">
         <img src="../../assets/img/square2.png" alt="">
         <div class="cooperation_text">
-          <p>多链钱包：</p>
-          <p>1、数字资产：币币兑换、转账、加密存储、行情</p>
-          <p>2、咨询：快讯、新闻、攻略</p>
-          <p>3、社交：聊天、阅后即焚、发数字资产红包</p>
+          <p>{{lang.chain.feature2[$store.getters.langKey]}}</p>
+          <p>{{lang.chain.feature2Detail1[$store.getters.langKey]}}</p>
+          <p>{{lang.chain.feature2Detail2[$store.getters.langKey]}}</p>
+          <p>{{lang.chain.feature2Detail3[$store.getters.langKey]}}</p>
         </div>
       </div>
       <div class="top_up">
         <div class="top_up_text">
-          <p>金融生态：</p>
-          <p>Visa卡、POS机、交易所、精准投资</p>
+          <p>{{lang.chain.financialEcology[$store.getters.langKey]}}</p>
+          <p>{{lang.chain.financialEcologyDetail[$store.getters.langKey]}}</p>
         </div>
         <img src="../../assets/img/square3.jpg" alt="">
       </div>
       <div class="withdrawal">
         <img src="../../assets/img/square4.png" alt="">
         <div class="withdrawal_text">
-          <p>稳定币：</p>
-          <p>基于自主公链的稳定币，usdb，用于与法币对等交易支付</p>
+          <p>{{lang.chain.stablecoin[$store.getters.langKey]}}</p>
+          <p>{{lang.chain.stablecoinDetail[$store.getters.langKey]}}</p>
         </div>
       </div>
       <div class="process">
         <div class="title">
-          <p class="tit">生态闭环</p>
+          <p class="tit">{{lang.chain.circulationRoute[$store.getters.langKey]}}</p>
         </div>
-        <p class="tit_son">The circulation route</p>
+        <p class="tit_son">{{lang.chain.circulationRouteSub[$store.getters.langKey]}}</p>
         <img style="margin-left: 70px" src="../../assets/img/closedloop.png" alt="">
       </div>
     </section>
     <footer class="footer">
       <div class="footer_content">
         <div class="footer_content_left">
-          <p class="footer_tit">联系我们</p>
-          <p class="footer_text">共筑区块链发展基石，共建区块链命运共同体</p>
+          <p class="footer_tit">{{lang.footer.contactUs[$store.getters.langKey]}}</p>
+          <p class="footer_text">{{lang.footer.contactUsText[$store.getters.langKey]}}</p>
           <ul class="details">
             <li>
-              <p>联系电话：18018592068</p>
+              <p>{{lang.footer.phone[$store.getters.langKey]}}</p>
             </li>
             <li>
-              <p>商务邮箱：bd@merchain.cn</p>
-              <p>招聘邮箱：hr@merchain.cn</p>
+              <p>{{lang.footer.businessEmail[$store.getters.langKey]}}</p>
+              <p>{{lang.footer.recruitmentEmail[$store.getters.langKey]}}</p>
             </li>
-            <li><p>总公司地址：上海市杨浦区铁岭路123号</p>
-              <p>加拿大分部：450 Southwest Marine Drive Vancouver BC V5X 4V2</p>
+            <li>
+              <p>{{lang.footer.address[$store.getters.langKey]}}</p>
+              <p>{{lang.footer.branchAddress[$store.getters.langKey]}}</p>
             </li>
           </ul>
         </div>
         <div class="footer_content_right">
           <img src="../../assets/img/code.png" alt="">
-          <p>扫一扫关注莫嗔科技旗下品牌</p>
-          <p>【链改吧】官方微信公众号</p>
+          <p>{{lang.footer.scan[$store.getters.langKey]}}</p>
+          <p>{{lang.footer.weChat[$store.getters.langKey]}}</p>
         </div>
       </div>
     </footer>
   </article>
 </template>
 <script>
+    import {Lang} from "../../../static/i18n";
+
     export default {
-        name: "Chain"
+        name: "Chain",
+        data() {
+            return {
+                lang: Lang
+            }
+        }
     }
 </script>
 <style scoped>

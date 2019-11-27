@@ -29,30 +29,27 @@
               <div class="image">
                 <img src="../../assets/img/yiliao.png" alt="">
               </div>
-              <p class="technology">生态公链</p>
-              <p class="use">以科创板为目标，潜心技术应用</p>
+              <p class="technology">{{lang.home.project1[$store.getters.langKey]}}</p>
             </div>
-            <div class="btn">项目详情</div>
+            <div class="btn">{{ lang.home.projectDetail[$store.getters.langKey] }}</div>
           </li>
           <li>
             <div class="grid">
               <div class="image">
                 <img src="../../assets/img/rengong.png" alt="">
               </div>
-              <p class="technology">链改吧</p>
-              <p class="use">媒体宣发通道，公众号&论坛</p>
+              <p class="technology">{{lang.home.project2[$store.getters.langKey]}}</p>
             </div>
-            <div class="btn">项目详情</div>
+            <div class="btn">{{ lang.home.projectDetail[$store.getters.langKey] }}</div>
           </li>
           <li>
             <div class="grid">
               <div class="image">
                 <img src="../../assets/img/zhihuiyil.png" alt="">
               </div>
-              <p class="technology">企业服务</p>
-              <p class="use">赋能实体经济</p>
+              <p class="technology">{{lang.home.project3[$store.getters.langKey]}}</p>
             </div>
-            <div class="btn">项目详情</div>
+            <div class="btn">{{ lang.home.projectDetail[$store.getters.langKey] }}</div>
           </li>
         </ul>
       </section>
@@ -67,30 +64,29 @@
             </div>
             <div class="liangai_content">
               <div class="liangai_tit">
-                <p>生态公链</p>
-                <a>点击进入</a>
+                <p>{{lang.home.project1[$store.getters.langKey]}}</p>
+                <a>{{lang.home.enter[$store.getters.langKey]}}</a>
               </div>
               <ul class="liangai_text animated fadeInRight" style="visibility: hidden;animation-name: none;">
                 <li>
-                  <p>公链价值</p>
-                  <p>公链在整个区块链领域是非常重要的——底层公链相当于区块链世界的基础设施，解决方案用来拓展底层公链的性能或为商业应用提供服务支撑。只有在底层公链扎实稳健高效运转的基础上，区块链商业应用才能发展和落地。</p>
+                  <p>{{lang.home.publicChainWallet[$store.getters.langKey]}}</p>
+                  <p>{{lang.home.publicChainWalletDetail[$store.getters.langKey]}}</p>
                 </li>
                 <li>
-                  <p>自主公链</p>
-                  <p>Merchain(莫嗔科技)以强大的技术团队不断进行底层公链的研发和功能的优化，将不断提高公链的各方面能力，不受其他任何链的限制，营造一个自由平等的链世界。</p>
+                  <p>{{lang.home.publicChainValue[$store.getters.langKey]}}</p>
+                  <p>{{lang.home.publicChainValueDetail[$store.getters.langKey]}}</p>
                 </li>
                 <li>
-                  <p>生态布局</p>
-                  <p>Merchain(莫嗔科技)从应用生态、多链钱包、金融生态、稳定币四个部分出发，基于自己的底层公链不断研发完善高层服务，提高公链价值，同时开放各领域的接入接口，从各方面MC生态。</p>
+                  <p>{{lang.home.publicChainLayout[$store.getters.langKey]}}</p>
+                  <p>{{lang.home.publicChainLayoutDetail[$store.getters.langKey]}}</p>
                 </li>
               </ul>
             </div>
           </div>
           <div class="qukuai">
             <div class="qukuai_content">
-              <p class="qukuai_tit">区块链赋能实体经济</p>
-              <p class="qukuai_text">
-                Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
+              <p class="qukuai_tit">{{lang.home.blockchainEmpowersEconomy[$store.getters.langKey]}}</p>
+              <p class="qukuai_text">{{lang.home.blockchainEmpowersEconomyDetail[$store.getters.langKey]}}</p>
               <div class="qukuai_process_box animated fadeInLeft" style="visibility: hidden;animation-name: none;">
                 <div class="qukuai_process">
                   <div class="qukuai_process_subclass">
@@ -116,9 +112,9 @@
                   </div>
                 </div>
                 <div class="qukuai_process_tit">
-                  <p>项目考察、项目包装</p>
-                  <p>项目开发、项目合规</p>
-                  <p>项目宣发、项目融资</p>
+                  <p>{{lang.home.projectInspectionPackaging[$store.getters.langKey]}}</p>
+                  <p>{{lang.home.projectDevelopmentCompliance[$store.getters.langKey]}}</p>
+                  <p>{{lang.home.projectAnnouncementFinancing[$store.getters.langKey]}}</p>
                 </div>
               </div>
             </div>
@@ -132,25 +128,25 @@
             </div>
             <div class="liangai_content">
               <div class="liangai_tit">
-                <p>链改吧形成品牌效应</p>
-                <a>点击进入</a>
+                <p>{{lang.home.project2[$store.getters.langKey]}}</p>
+                <a>{{lang.home.enter[$store.getters.langKey]}}</a>
               </div>
               <ul class="liangai_text animated fadeInRight" style="visibility: hidden;animation-name: none;">
                 <li>
-                  <p>项目出海</p>
-                  <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
+                  <p>{{lang.home.mediaAnnouncement[$store.getters.langKey]}}</p>
+                  <p>{{lang.home.mediaAnnouncementDetail[$store.getters.langKey]}}</p>
                 </li>
                 <li>
-                  <p>STO对接</p>
-                  <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
+                  <p>{{lang.home.technologyDevelopment[$store.getters.langKey]}}</p>
+                  <p>{{lang.home.technologyDevelopmentDetail[$store.getters.langKey]}}</p>
                 </li>
                 <li>
-                  <p>区块链高校社区群</p>
-                  <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
+                  <p>{{lang.home.communityDocking[$store.getters.langKey]}}</p>
+                  <p>{{lang.home.communityDockingDetail[$store.getters.langKey]}}</p>
                 </li>
                 <li>
-                  <p>链改吧公众号+论坛</p>
-                  <p>Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
+                  <p>{{lang.home.projectOversea[$store.getters.langKey]}}</p>
+                  <p>{{lang.home.projectOverseaDetail[$store.getters.langKey]}}</p>
                 </li>
               </ul>
             </div>
@@ -166,10 +162,11 @@
                 <div class="dapps_img">
                   <img src="../../assets/img/zhifu.png" alt="">
                 </div>
-                <p class="dapps_tit">支付应用</p>
-                <p class="dapps_text">研发智能无感支付技术，操作简便，可通过SAAS、SDK、API等三种方式灵活接入商家，为合作伙伴提供安全稳定的数字货币流通渠道。</p>
+                <p class="dapps_tit">{{lang.home.app1[$store.getters.langKey]}}</p>
+                <p class="dapps_text">{{lang.home.app1Detail[$store.getters.langKey]}}</p>
                 <div class="dapps_state_box">
-                  <router-link tag="a" to="/specification" class="dapps_state" href="javascript:void(0)">产品说明书
+                  <router-link tag="a" to="/specification" class="dapps_state" href="javascript:void(0)">
+                    {{lang.home.appDoc[$store.getters.langKey]}}
                   </router-link>
                 </div>
               </li>
@@ -177,76 +174,82 @@
                 <div class="dapps_img">
                   <img src="../../assets/img/suyuan.png" alt="">
                 </div>
-                <p class="dapps_tit">溯源应用</p>
-                <p class="dapps_text">研发供应链全流程解决方案，部署5G硬件感应系统，建立物联网实时数据库，区块云联商家，一物一码识别，提高生产效率，提升品牌价值。</p>
+                <p class="dapps_tit">{{lang.home.app2[$store.getters.langKey]}}</p>
+                <p class="dapps_text">{{lang.home.app2Detail[$store.getters.langKey]}}</p>
                 <div class="dapps_state_box">
-                  <router-link tag="a" to="/roots" class="dapps_state" href="javascript:void(0)">产品说明书</router-link>
+                  <router-link tag="a" to="/roots" class="dapps_state" href="javascript:void(0)">
+                    {{lang.home.appDoc[$store.getters.langKey]}}
+                  </router-link>
                 </div>
               </li>
               <li>
                 <div class="dapps_img">
                   <img src="../../assets/img/youxi.png" alt="">
                 </div>
-                <p class="dapps_tit">游戏应用</p>
-                <p class="dapps_text">研发游戏人物、游戏道具版权确权系统，基于以太坊、EOS、TRON开发DAPP，已获得加拿大牌照，为合作伙伴提供定制化SDK解决方案。</p>
-                <div class="dapps_state_box"><a class="dapps_state" href="javascript:void(0)">产品说明书</a></div>
+                <p class="dapps_tit">{{lang.home.app3[$store.getters.langKey]}}</p>
+                <p class="dapps_text">{{lang.home.app3Detail[$store.getters.langKey]}}</p>
+                <div class="dapps_state_box"><a class="dapps_state" href="javascript:void(0)">{{lang.home.appDoc[$store.getters.langKey]}}</a>
+                </div>
               </li>
               <li>
                 <div class="dapps_img">
                   <img src="../../assets/img/qiye.png" alt="">
                 </div>
-                <p class="dapps_tit">企业应用</p>
-                <p class="dapps_text">根据企业需求，结合区块链技术等创新科技，解决企业痛点问题。如身份认证、数据存证、信息加密脱敏处理、电子票据分布式存储等。</p>
-                <div class="dapps_state_box"><a class="dapps_state" href="javascript:void(0)">产品说明书</a></div>
+                <p class="dapps_tit">{{lang.home.app4[$store.getters.langKey]}}</p>
+                <p class="dapps_text">{{lang.home.app4Detail[$store.getters.langKey]}}</p>
+                <div class="dapps_state_box"><a class="dapps_state" href="javascript:void(0)">{{lang.home.appDoc[$store.getters.langKey]}}</a>
+                </div>
               </li>
               <li>
                 <div class="dapps_img">
                   <img src="../../assets/img/ipfs.png" alt="">
                 </div>
-                <p class="dapps_tit">IPFS应用</p>
-                <p class="dapps_text">研发分布式存储系统，构筑资源管理防火墙。搭建硬盘挖矿ERP系统，根据产币量的真实数据分配矿池收益，为社区节点提供安全技术保障。</p>
-                <div class="dapps_state_box"><a class="dapps_state" href="javascript:void(0)">产品说明书</a></div>
+                <p class="dapps_tit">{{lang.home.app5[$store.getters.langKey]}}</p>
+                <p class="dapps_text">{{lang.home.app5Detail[$store.getters.langKey]}}</p>
+                <div class="dapps_state_box"><a class="dapps_state" href="javascript:void(0)">{{lang.home.appDoc[$store.getters.langKey]}}</a>
+                </div>
               </li>
             </ul>
           </div>
         </section>
-        <section class="course">
-          <div class="title">
-            <p class="tit animated flipInX" style="visibility: hidden;animation-name: none;">Merchain Course</p>
-          </div>
-          <div class="course_content animated zoomIn" style="visibility: hidden;animation-name: none;">
-            <div class="course_wrap_top">
-              <div></div>
-              <div>
-                <p class="course_time">2018.9</p>
-                <p class="course_text">Merchain(莫嗔科技)以创造价值为目标，以“</p>
-              </div>
-              <div></div>
-              <div>
-                <p class="course_time">2018.9</p>
-                <p class="course_text">Merchain(莫嗔科技)以创造价值为目标，以“</p>
-              </div>
-              <div></div>
-            </div>
-            <img class="course_img" src="../../assets/img/licheng.png" alt="">
-            <div class="course_wrap_bottom">
-              <div>
-                <p class="course_time">2018.9</p>
-                <p class="course_text">Merchain(莫嗔科技)以创造价值为目标，以“</p>
-              </div>
-              <div></div>
-              <div>
-                <p class="course_time">2018.9</p>
-                <p class="course_text">Merchain(莫嗔科技)以创造价值为目标，以“</p>
-              </div>
-              <div></div>
-              <div>
-                <p class="course_time">2018.9</p>
-                <p class="course_text">Merchain(莫嗔科技)以创造价值为目标，以“</p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <!-- <section class="course">-->
+        <!--          <div class="title">-->
+        <!--            <p class="tit animated flipInX" style="visibility: hidden;animation-name: none;">Merchain Course</p>-->
+        <!--          </div>-->
+        <!--          <div class="course_content animated zoomIn" style="visibility: hidden;animation-name: none;">-->
+        <!--            <div class="course_wrap_top">-->
+        <!--              <div></div>-->
+        <!--              <div>-->
+        <!--                <p class="course_time">2018.9</p>-->
+        <!--                <p class="course_text">Merchain(莫嗔科技)以创造价值为目标，以“</p>-->
+        <!--              </div>-->
+        <!--              <div></div>-->
+        <!--              <div>-->
+        <!--                <p class="course_time">2018.9</p>-->
+        <!--                <p class="course_text">Merchain(莫嗔科技)以创造价值为目标，以“</p>-->
+        <!--              </div>-->
+        <!--              <div></div>-->
+        <!--            </div>-->
+        <!--            <img class="course_img" src="../../assets/img/licheng.png" alt="">-->
+        <!--            <div class="course_wrap_bottom">-->
+        <!--              <div>-->
+        <!--                <p class="course_time">2018.9</p>-->
+        <!--                <p class="course_text">Merchain(莫嗔科技)以创造价值为目标，以“</p>-->
+        <!--              </div>-->
+        <!--              <div></div>-->
+        <!--              <div>-->
+        <!--                <p class="course_time">2018.9</p>-->
+        <!--                <p class="course_text">Merchain(莫嗔科技)以创造价值为目标，以“</p>-->
+        <!--              </div>-->
+        <!--              <div></div>-->
+        <!--              <div>-->
+        <!--                <p class="course_time">2018.9</p>-->
+        <!--                <p class="course_text">Merchain(莫嗔科技)以创造价值为目标，以“</p>-->
+        <!--              </div>-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </section>-->
+
         <section class="merchain_news">
           <div class="title">
             <p class="tit animated flipInX" style="visibility: hidden;animation-name: none;">Merchain News</p>
@@ -256,28 +259,31 @@
               <swiper-slide>
                 <div class="swiper_content">
                   <img class="slide_img" src="../../assets/img/shiyans.png" alt="">
-                  <p class="slide_tit">区块链的未来已来，加入我们使它分布得更均匀</p>
+                  <p class="slide_tit">{{lang.home.news1[$store.getters.langKey]}}</p>
                   <p class="slide_text">
-                    Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
-                  <div class="slide_state_box"><a class="slide_state" href="javascript:void(0)">查看详情</a></div>
+                    {{lang.home.news1Detail[$store.getters.langKey]}}</p>
+                  <div class="slide_state_box"><a class="slide_state" href="javascript:void(0)">{{lang.home.projectDetail[$store.getters.langKey]}}</a>
+                  </div>
                 </div>
               </swiper-slide>
               <swiper-slide>
                 <div class="swiper_content">
                   <img class="slide_img" src="../../assets/img/qukliant.png" alt="">
-                  <p class="slide_tit">区块链的未来已来，加入我们使它分布得更均匀</p>
+                  <p class="slide_tit">{{lang.home.news2[$store.getters.langKey]}}</p>
                   <p class="slide_text">
-                    Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
-                  <div class="slide_state_box"><a class="slide_state" href="javascript:void(0)">查看详情</a></div>
+                    {{lang.home.news2Detail[$store.getters.langKey]}}</p>
+                  <div class="slide_state_box"><a class="slide_state" href="javascript:void(0)">{{lang.home.projectDetail[$store.getters.langKey]}}</a>
+                  </div>
                 </div>
               </swiper-slide>
               <swiper-slide>
                 <div class="swiper_content">
                   <img class="slide_img" src="../../assets/img/zhihuics.png" alt="">
-                  <p class="slide_tit">区块链的未来已来，加入我们使它分布得更均匀</p>
+                  <p class="slide_tit">{{lang.home.news3[$store.getters.langKey]}}</p>
                   <p class="slide_text">
-                    Merchain(莫嗔科技)以创造价值为目标，以“产-学-研”结合赋能实体经济为愿景，提供活动策划、商务咨询、技术服务，让区块链技术落地各垂直领域，回归科技创新服务实体经济的本质。</p>
-                  <div class="slide_state_box"><a class="slide_state" href="javascript:void(0)">查看详情</a></div>
+                    {{lang.home.news3Detail[$store.getters.langKey]}}</p>
+                  <div class="slide_state_box"><a class="slide_state" href="javascript:void(0)">{{lang.home.projectDetail[$store.getters.langKey]}}</a>
+                  </div>
                 </div>
               </swiper-slide>
               <div class="swiper-newspage" style="display:flex;justify-content:center;" slot="pagination"></div>
@@ -288,26 +294,26 @@
       <footer class="footer">
         <div class="footer_content">
           <div class="footer_content_left">
-            <p class="footer_tit">联系我们</p>
-            <p class="footer_text">共筑区块链发展基石，共建区块链命运共同体</p>
+            <p class="footer_tit">{{lang.footer.contactUs[$store.getters.langKey]}}</p>
+            <p class="footer_text">{{lang.footer.contactUsText[$store.getters.langKey]}}</p>
             <ul class="details">
               <li>
-                <p>联系电话：18018592068</p>
+                <p>{{lang.footer.phone[$store.getters.langKey]}}</p>
               </li>
               <li>
-                <p>商务邮箱：bd@merchain.cn</p>
-                <p>招聘邮箱：hr@merchain.cn</p>
+                <p>{{lang.footer.businessEmail[$store.getters.langKey]}}</p>
+                <p>{{lang.footer.recruitmentEmail[$store.getters.langKey]}}</p>
               </li>
               <li>
-                <p>总公司地址：上海市杨浦区铁岭路123号</p>
-                <p>加拿大分部：450 Southwest Marine Drive Vancouver BC V5X 4V2</p>
+                <p>{{lang.footer.address[$store.getters.langKey]}}</p>
+                <p>{{lang.footer.branchAddress[$store.getters.langKey]}}</p>
               </li>
             </ul>
           </div>
           <div class="footer_content_right">
             <img src="../../assets/img/code.png" alt="">
-            <p>扫一扫关注莫嗔科技旗下品牌</p>
-            <p>【链改吧】官方微信公众号</p>
+            <p>{{lang.footer.scan[$store.getters.langKey]}}</p>
+            <p>{{lang.footer.weChat[$store.getters.langKey]}}</p>
           </div>
         </div>
       </footer>
@@ -319,6 +325,7 @@
     import animate from 'animate.css'
     import 'swiper/dist/css/swiper.css'
     import {swiper, swiperSlide} from 'vue-awesome-swiper'
+    import {Lang} from "../../../static/i18n";
 
     export default {
         name: "Home",
@@ -328,6 +335,7 @@
         },
         data() {
             return {
+                lang: Lang,
                 slide: "",
                 swiperSlides: [
                     {
